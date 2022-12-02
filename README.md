@@ -1,9 +1,11 @@
-# Atividade 3 de Tecnica de programação 1
+# Atividade 4 de Tecnica 
 
-## Como rodar o projeto:
+## Como rodar:
 
-- clone o repositorio
+- clonar o repositorio
+
+- entre na pasta backend no terminal ( cd backend )
 
 - npm install
 
-- npm start
+- npm run dev
