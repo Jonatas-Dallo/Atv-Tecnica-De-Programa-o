@@ -1,11 +1,9 @@
-# Atividade 2 de Tecnica de programação 1
+# Atividade 3 de Tecnica de programação 1
 
-## Como rodar:
+## Como rodar o projeto:
 
-- clonar o repositorio
+- clone o repositorio
 
 - npm install
 
 - npm start
-
-

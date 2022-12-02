@@ -1,10 +1,7 @@
-import { Component } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar';
 
-export class VisualizarProduto extends Component {
-    render(){
-
+function ExemploProduto() {
         return(
             <section>
             <header>
@@ -28,6 +25,6 @@ export class VisualizarProduto extends Component {
                 </Card>
             </main>
         </section>
-    )
-}
-};
+)};
+
+export default ExemploProduto;

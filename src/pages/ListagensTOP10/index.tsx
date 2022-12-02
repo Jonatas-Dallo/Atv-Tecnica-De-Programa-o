@@ -1,10 +1,7 @@
-import { Component } from 'react';
 import { Button, Table } from 'react-bootstrap';
 import  NavBar_  from '../../component/NavBar'
 
-export class Consumos extends Component {
-    render(){
-
+function ListagensTOP10() {
         return (
             <section>
             <header>
@@ -62,6 +59,6 @@ export class Consumos extends Component {
                 </div>
             </main>
         </section>
-    );
-    }
-}
+)};
+
+export default ListagensTOP10;

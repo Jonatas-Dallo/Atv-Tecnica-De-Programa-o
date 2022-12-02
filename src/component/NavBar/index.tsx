@@ -1,12 +1,8 @@
-import { Component } from 'react';
 import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
-
-export default class Navbar_ extends Component {
-    render(){
-
-        return (
-            <>
+function Navbar_() {
+    return (
+        <>
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
                     <Navbar.Brand href="/">WB</Navbar.Brand>
@@ -32,5 +28,6 @@ export default class Navbar_ extends Component {
             </Navbar>
         </>
     );
-    }
 }
+
+export default Navbar_;

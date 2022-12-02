@@ -1,11 +1,8 @@
-import { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 import './style.css'
 
-export class EditarServico extends Component {
-    render(){
-
+function UpdateServico() {
         return (
             <section>
             <header>
@@ -30,6 +27,6 @@ export class EditarServico extends Component {
                 </div>
             </main>
         </section>
-    )
-}
-};
+)};
+
+export default UpdateServico;

@@ -1,14 +1,11 @@
-import { Component } from 'react';
 import { Button, Table } from 'react-bootstrap';
-import NavBar_ from '../../../component/NavBar'
+import Navbar_ from '../../../component/NavBar';
 
-export class Servicos extends Component {
-    render(){
-
+function ListaServico() {
         return (
             <section>
             <header>
-                <NavBar_/>
+                <Navbar_/>
             </header>
             <main>
                 <h1>Serviços</h1>
@@ -68,6 +65,6 @@ export class Servicos extends Component {
                 </div>
             </main>
         </section>
-    );
-}
-}
+)};
+
+export default ListaServico;

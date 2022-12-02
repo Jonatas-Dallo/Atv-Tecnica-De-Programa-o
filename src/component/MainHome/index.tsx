@@ -3,8 +3,7 @@ import { Container} from 'react-bootstrap';
 import './styles.css';
 
 
-export default class Main_ extends Component {
-    render(){
+function Main_() {
 
         return (
             <>
@@ -16,5 +15,6 @@ export default class Main_ extends Component {
             </Container>
         </>
     );
-    }
 }
+
+export default Main_;

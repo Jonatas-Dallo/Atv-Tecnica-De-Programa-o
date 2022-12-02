@@ -1,11 +1,8 @@
-import { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 import './style.css'
 
-export class EditarProduto extends Component {
-    render(){
-
+function UpdateProduto() {
         return (
             <section>
             <header>
@@ -30,6 +27,6 @@ export class EditarProduto extends Component {
                 </div>
             </main>
         </section>
-    )
-}
-};
+)};
+
+export default UpdateProduto

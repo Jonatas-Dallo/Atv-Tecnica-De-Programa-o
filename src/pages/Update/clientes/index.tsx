@@ -1,11 +1,8 @@
-import { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 import './style.css'
 
-export class EditarCliente extends Component {
-    render(){
-
+function UpdateCliente() {
         return (
             <section>
             <header>
@@ -50,7 +47,6 @@ export class EditarCliente extends Component {
                 </div>
             </main>
         </section>
-    );
-}
-}
+)};
 
+export default UpdateCliente;

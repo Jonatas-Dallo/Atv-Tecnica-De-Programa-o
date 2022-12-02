@@ -1,11 +1,8 @@
-import { Component } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar';
 import './style.css'
 
-export class VisualizarCliente extends Component {
-    render(){
-
+function ExemploCliente() {
         return (
             <section>
             <header>
@@ -36,6 +33,6 @@ export class VisualizarCliente extends Component {
                 </Card>
             </main>
         </section>
-    )
-}
-};
+)};
+
+export default ExemploCliente;

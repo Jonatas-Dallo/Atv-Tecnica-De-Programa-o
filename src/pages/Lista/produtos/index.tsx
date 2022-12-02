@@ -1,10 +1,7 @@
-import { Component } from 'react';
 import { Button, Table } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 
-export class Produtos extends Component {
-    render() {
-
+function ListaProduto() {
         return (
             <section>
             <header>
@@ -68,6 +65,6 @@ export class Produtos extends Component {
                 </div>
             </main>
         </section>
-    );
-}
-}
+)};
+
+export default ListaProduto;

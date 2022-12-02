@@ -1,11 +1,8 @@
-import { Component } from 'react';
 import { Button, Table } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 import './styles.css'
 
-export class Clientes extends Component {
-    render() {
-
+function ListaCliente() {
         return (
             <section>
             <header>
@@ -99,6 +96,6 @@ export class Clientes extends Component {
                 </div>
             </main>
         </section>
-    );
-}
-}
+)};
+
+export default ListaCliente;

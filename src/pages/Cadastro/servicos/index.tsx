@@ -1,9 +1,7 @@
-import { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 
-export class CadastrarServico extends Component {
-    render(){
+function CadastroServico() {
         return (
             <section>
             <header>
@@ -26,6 +24,6 @@ export class CadastrarServico extends Component {
                 </div>
             </main>
         </section>
-    );
-    }
-}
+)};
+
+export default CadastroServico;

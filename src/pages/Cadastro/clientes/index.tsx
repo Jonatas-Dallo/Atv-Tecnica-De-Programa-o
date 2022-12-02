@@ -1,11 +1,8 @@
-import { Component } from 'react';
 import { Button } from 'react-bootstrap';
-import NavBar_ from '../../../component/NavBar'
+import NavBar_ from '../../../component/NavBar';
 import './styles.css'
 
-export class CadastrarClientes extends Component {
-    
-    render() {
+function CadastroCliente() {
     return (
         <section>
             <header>
@@ -48,6 +45,6 @@ export class CadastrarClientes extends Component {
                 </div>
             </main>
         </section>
-    );
-    }
-}
+)};
+
+export default CadastroCliente;
