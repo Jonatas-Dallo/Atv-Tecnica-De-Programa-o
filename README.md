@@ -1,12 +1,11 @@
-# Atividade 1 de Tecnica de programação
+# Atividade 2 de Tecnica de programação 1
 
 ## Como rodar:
 
-1 - clonar o repositorio
+- clonar o repositorio
 
-2 - npm install
+- npm install
 
-3 - npx tsc
+- npm start
 
-4 - npm start
 
