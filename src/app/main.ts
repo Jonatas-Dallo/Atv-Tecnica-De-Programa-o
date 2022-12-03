@@ -42,7 +42,7 @@ while (execucao) {
     console.log(`Opções:`);
     console.log(`1 - Cadastros`);
     console.log(`2 - Listar`);
-    console.log(`3 - Atualizar cliente`);
+    console.log(`3 - Atualizar`);
     console.log(`4 - Deletar `);
     console.log(`5 - Gerar exemplos `);
     console.log(`0 - Sair`);
